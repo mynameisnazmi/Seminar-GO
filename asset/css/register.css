@@ -1,0 +1,203 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+#topr{
+    top: 0;
+    position: relative;
+    z-index: 1;
+    background-color: #A0C6EA;
+    height: 61px;
+}
+
+#top{
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 15;
+    display: flex;
+    background-color: #71A4D6;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    height: 61px;
+}
+
+    #navbar_kiri{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 10;
+        width: 50%;
+        flex-grow: 7;
+    }
+
+        #navbar_kiri a{
+            display: block;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: #135799;
+            background-color:#A0C6EA;
+            font-size: 1.25rem;
+            line-height: inherit;
+        }
+
+    #navbar_kanan {
+        right: 17px;
+        display: inline-flex;
+        justify-content: flex-end;
+        background-color: #71A4D6;
+        position: relative;
+        z-index: 11;
+        flex-grow: 1;
+    }
+
+        #navbar_kanan #a{
+            display: block;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            color: #135799;
+        }
+
+        #navbar_kanan #a:hover{
+            color: white;
+            background-color: #5890CF;
+            transition: 0.5s;
+        }
+
+#body {
+    float: center;
+}
+
+    #body #bodyartikel {
+        width: 50%;
+        margin: 25px auto;
+        top: 0;
+        align-content: center;
+        position: relative;
+    }
+
+    #register {
+    }
+
+        #register * {
+            box-sizing: border-box;
+        } 
+
+        #register p {
+            padding: 12px;
+        }
+
+        #register #space{
+            width: 100%;
+            height: 20px;
+        }
+
+        #register #col-25{
+            float: left;
+            padding: 17px 0 0; 
+            width: 20%;
+        }
+
+        #register #col-25r{
+            float: right;
+            width: 25%;
+        }
+
+        #register #col-75{
+            float: left;
+            padding: 20px 0 0; 
+            width: 80%;
+        }
+
+        #register input[type=email]{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        #register input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        #register input[type=password] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        #register label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }    
+        
+        #register #right {
+            float: right;
+            width: 90px;
+        }
+
+        #register input[type=submit] {
+            background-color: #A0C6EA;
+            width: 100%;
+            color: #135799;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-top: 20px;
+        }
+          
+        #register input[type=submit]:hover {
+            background-color: rgb(88, 144, 207);
+            color: #ffffff;
+            transition: 0.5s;
+        }
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#infofooter600{
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    margin-top: 50px;
+} 
+
+#footer {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    color: white;
+    background-color: #4D88C0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+        

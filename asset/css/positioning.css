@@ -1,0 +1,292 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.pulse {
+    transition: 1s ease-in;
+  }
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+#topr{
+    top: 0;
+    position: relative;
+    z-index: 1;
+    background-color: #A0C6EA;
+    height: 61px;
+}
+
+#top{
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 15;
+    display: flex;
+    background-color: #71A4D6;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    height: 61px;
+}
+
+    #navbar_kiri{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 10;
+        width: 50%;
+        flex-grow: 7;
+    }
+
+        #navbar_kiri a{
+            display: block;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: #135799;
+            background-color:#A0C6EA;
+            font-size: 1.25rem;
+            line-height: inherit;
+        }
+
+    #navbar_kanan {
+        right: 17px;
+        display: inline-flex;
+        justify-content: flex-end;
+        background-color: #71A4D6;
+        position: relative;
+        z-index: 11;
+        flex-grow: 1;
+    }
+
+        #navbar_kanan #a{
+            display: block;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            color: #135799;
+        }
+
+        #navbar_kanan #a:hover{
+            color: white;
+            background-color: #5890CF;
+            transition: 0.5s;
+        }
+
+        /*new*/
+        .dropdown {
+            width: auto;
+            display: flex;
+            align-items: center;
+            padding: 0px 10px 0px 20px;
+            cursor: pointer;
+            color: #135799;
+        }
+
+        .dropdown:hover {
+            background-color: #5890CF;
+            color: white;
+            transition: 0.5s;
+        }
+
+        .dropdown #p{
+            position: relative;
+        }
+        
+        .imgdrop{
+            border-radius: 50%;
+            border: 2px solid #135799;
+            width: 38px;
+            height: 38px;
+            object-fit: cover;
+            padding: 3px;
+            margin-left: 5px;
+        }
+
+        #navbar_kanan #img{
+            cursor: pointer;
+            display: none;
+            height: 25px;
+            object-fit: cover;
+            margin: 18px 5px 8px 15px;
+        }
+
+        #navbar_kanan #container {
+            display: none;
+            cursor: pointer;
+            padding: 15px 15px 13px;
+        }
+
+            #bar1, #bar2, #bar3 {
+                display: none;
+                width: 30px;
+                height: 3px;
+                background-color: #ffffff;
+                margin: 6px 0;
+                transition: 0.4s;
+            }
+
+        .dropdown-content, #dropdown-content2 {
+            display: none;
+            position: absolute;
+            right: 0px;
+            top: 61px;
+            background-color: #ffffff;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 25;
+        }
+
+        .dropdown-content .p2{
+            position: relative;
+            display: none;
+            padding: 15px 35px;
+            background-color: #dedede;
+        }
+
+        .dropdown-content a, #dropdown-content2 a{
+            display: block;
+            width: 130px;
+            padding: 10px 40px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .dropdown-content a:hover, #dropdown-content2 a:hover{
+            background-color: #dedede;
+            color: #063A74;
+            transition: 0.5s;
+        }
+
+#body {
+    float: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    #containertop{
+        width: 1122px;
+        margin: 25px auto;
+        top: 0;
+    }
+
+    #containertop #judul{
+        font-size: 40px;
+        color: #484848;
+    }
+
+    #containertop #contpage{
+        margin-top: 20px;
+        width: 40%;
+        border: 1px solid #D8D8D8;
+        border-radius: 2px;
+    }
+
+        #objright2{
+            padding: 15px 20px 15px 20px; 
+        }
+
+        #row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+            #objright2 *{
+                box-sizing: border-box;
+            }
+        
+            #objright2 #col-25{
+                float: left;
+                padding: 15px 0 20px; 
+                width: 30%;
+            }
+
+            #objright2 #col-75{
+                float: left;
+                padding: 5px 0 0px; 
+                width: 70%;
+            }      
+            
+                #objright2 input[type=number], #objright2 select {
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    resize: vertical;
+                }
+
+                #objright2 button {
+                    background-color: #ffffff;
+                    color: #000000;
+                    border: 1px solid #D8D8D8;
+                    width: 50%;
+                    padding: 12px 20px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            
+                #objright2 button:hover {
+                    background-color: #D8D8D8;
+                    color: #000000;
+                    transition: 0.5s;
+                }
+    
+#containment { 
+    margin: 20px 0 30px;
+	position: relative;
+	background-size: cover;
+	width: 1122px; /*dont*/
+	height: 793px;/*dont*/
+	background-color:black;
+}
+
+    #box {
+        position: absolute;
+        top: 0;/*dont*/
+        left: 0;/*dont*/
+        width : 100px;/*dont*/
+        height: 100px;/*dont*/
+        cursor: move;
+        background-color :gray;
+        text-align:center
+    }
+        
+    #name {
+        position: absolute;
+        top: 0;/*dont*/
+        left: 0;/*dont*/
+        width : 600px;/*dont*/
+        text-align:left;/*dont*/ 
+        cursor: move;
+        line-height: 0.8;
+    }
+
+    #results {
+        text-align: center;
+    }
+
+#infofooter600{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}   
+
+#footer {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    color: white;
+    background-color: #4D88C0;
+    text-align: center;
+    padding-bottom: 5px;
+}

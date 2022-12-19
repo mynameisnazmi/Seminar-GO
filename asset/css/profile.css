@@ -1,0 +1,569 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.pulse {
+    transition: 1s ease-in;
+  }
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+#topr{
+    top: 0;
+    position: relative;
+    z-index: 1;
+    background-color: #A0C6EA;
+    height: 61px;
+}
+
+#top{
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 15;
+    display: flex;
+    background-color: #71A4D6;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    height: 61px;
+}
+
+    #navbar_kiri{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 10;
+        width: 50%;
+        flex-grow: 7;
+    }
+
+        #navbar_kiri a{
+            display: block;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: #135799;
+            background-color:#A0C6EA;
+            font-size: 1.25rem;
+            line-height: inherit;
+        }
+
+    #navbar_kanan {
+        right: 17px;
+        display: inline-flex;
+        justify-content: flex-end;
+        background-color: #71A4D6;
+        position: relative;
+        z-index: 11;
+        flex-grow: 1;
+    }
+
+        #navbar_kanan #a{
+            display: block;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            color: #135799;
+        }
+
+        #navbar_kanan #a:hover{
+            color: white;
+            background-color: #5890CF;
+            transition: 0.5s;
+        }
+
+        /*new*/
+        .dropdown {
+            width: auto;
+            display: flex;
+            align-items: center;
+            padding: 0px 10px 0px 20px;
+            cursor: pointer;
+            color: #135799;
+        }
+
+        .dropdown:hover {
+            background-color: #5890CF;
+            color: white;
+            transition: 0.5s;
+        }
+
+        .dropdown #p{
+            position: relative;
+        }
+        
+        .imgdrop{
+            border-radius: 50%;
+            border: 2px solid #135799;
+            width: 38px;
+            height: 38px;
+            object-fit: cover;
+            padding: 3px;
+            margin-left: 5px;
+        }
+
+        #navbar_kanan #img{
+            cursor: pointer;
+            display: none;
+            height: 25px;
+            object-fit: cover;
+            margin: 18px 5px 8px 15px;
+        }
+
+        #navbar_kanan #container {
+            display: none;
+            cursor: pointer;
+            padding: 15px 15px 13px;
+        }
+
+            #bar1, #bar2, #bar3 {
+                display: none;
+                width: 30px;
+                height: 3px;
+                background-color: #ffffff;
+                margin: 6px 0;
+                transition: 0.4s;
+            }
+
+        .dropdown-content, #dropdown-content2 {
+            display: none;
+            position: absolute;
+            right: 0px;
+            top: 61px;
+            background-color: #ffffff;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 25;
+        }
+
+        .dropdown-content .p2{
+            position: relative;
+            display: none;
+            padding: 15px 35px;
+            background-color: #dedede;
+        }
+
+        .dropdown-content a, #dropdown-content2 a{
+            display: block;
+            width: 130px;
+            padding: 10px 40px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .dropdown-content a:hover, #dropdown-content2 a:hover{
+            background-color: #dedede;
+            color: #063A74;
+            transition: 0.5s;
+        }
+
+#body {
+    float: center;
+}
+
+    #body #bodyartikel2 {
+        width: 1000px;
+        margin: 25px auto;
+        top: 0;
+    }
+
+        #body #bodyartikel2 #toppost {
+            width: 100%;
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        #body #bodyartikel2 #toppost2 {
+            display: none;
+            width: 100%;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+            #objtop{
+                padding: 0 40px 20px 40px;   
+                color: rgb(0, 22, 49);
+            }
+
+        #body #bodyartikel2 #leftbody {
+            width: 250px;
+            position: absolute;
+        }
+
+.objleft{
+    padding-left: 10px;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+    .objleft a{
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        color: #000000;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .objleft:hover{
+        border: 1px solid #063A74;
+        transition: 0.5s;
+    }
+
+    .objleft a:hover{
+        color: #063A74;
+        transition: 0.5s;
+    }
+
+.active{
+    padding-left: 10px;
+    border: 1px solid #063A74;
+}
+
+    .active a{
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        cursor: pointer;
+        font-size: 18px;
+        color: #063A74;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+    }   
+
+    #body #bodyartikel2 #mainright{
+        width: 730px;
+        margin-left: 270px;
+    }
+
+        #body #bodyartikel2 #mainright #rightbody {
+            margin-top: -30px;
+            margin-left: -320px;
+        }
+
+        #body #bodyartikel2 #mainright #rightbody2 {
+            border: 1px solid #D8D8D8;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        #body #bodyartikel2 #mainright #rightbody3 {
+            margin-top: 20px;
+            border: 1px solid #D8D8D8;
+            border-radius: 10px;
+            display: flex;
+        }
+
+        #body #bodyartikel2 #mainright #rightbody4 {
+            border-radius: 10px;
+            display: flex;
+        }
+
+#objright{
+    padding: 20px 40px 20px 40px;   
+    color: rgb(0, 22, 49);
+}
+
+#objright2{
+    padding: 10px 40px 10px 40px; 
+}
+
+    #objright2 *{
+        box-sizing: border-box;
+    }
+
+    #objright2 #col-25{
+        float: left;
+        padding: 12px 0 20px; 
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    #objright2 #col-25v2{
+        float: left;
+        padding: 15px 0 20px; 
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    #objright2 #col-75{
+        float: left;
+        padding: 10px 0 10px; 
+        width: 75%;
+    }
+
+    #objright2 #col-75v2{
+        float: left;
+        padding: 10px 0 0; 
+        width: 75%;
+    }
+
+    #objright2 img{
+        max-width: 100px;
+    }
+
+        #objright2 input[type=text], input[type=email], input[type=number], input[type=date], select, textarea, input[type=password] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+    #objright2 input[type=file] {
+        width: 150px;
+    }
+
+    #objright2 input[type=submit] {
+        background-color: #A0C6EA;
+        color: #135799;
+        border: none;
+        width: 30%;
+        padding: 12px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #objright2 input[type=submit]:hover {
+        background-color: rgb(88, 144, 207);
+        color: #ffffff;
+        transition: 0.5s;
+    }
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#objright3{
+    width: 40%;
+    flex-grow: 1;
+    max-height: 250px;
+}
+
+    #objright3 img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px 0 0 10px ;
+        margin-bottom: -4px;
+    }
+
+#objright4{
+    width: 100%;
+    position: relative;
+    padding: 25px 30px 20px 30px;
+}
+
+    #objright4 #desc{
+        position: absolute;
+        padding-right: 30px;
+        background-color: none;
+    }
+
+        #objright4 #desc #namaseminar{
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+            color: #484848;
+            padding-bottom: 10px;
+        }
+
+        #objright4 #desc #dateseminar {
+            font-size: 14px;
+            text-align: left;
+            font-size: 14px;
+        } 
+
+        #objright4 #desc #locseminar {
+            font-size: 14px;
+            margin-top: 5px;
+            text-align: left;
+        } 
+
+        #objright4 #desc #locseminar2 {
+            font-size: 14px;
+            display: none;
+            margin-top: 5px;
+            text-align: left;
+        } 
+
+    #objright4 #bota{
+        position: absolute;
+        bottom: 15px;
+    }
+
+        #objright4 #bota a{
+            background-color: #D3C747;
+            color: #ffffff;
+            display: block;
+            width: 170px;
+            text-align: center;
+            color: #ffffff;
+            padding: 12px 15px;
+            border: 1px solid #D3C747;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        } 
+
+            #objright4 #bota a:hover {
+                background-color: #8F840D;
+                border: 1px solid #8F840D;
+                color: #ffffff;
+                transition: 0.5s;
+            }
+
+    #objright4 #bota2{
+        position: absolute;
+        bottom: 15px;
+        left: 240px;
+    }
+
+        #objright4 #bota2 a{
+            background-color: #ffffff;
+            display: block;
+            width: 50px;
+            text-align: center;
+            color: #D60B3E;
+            border: 1px solid #D60B3E;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        } 
+
+            #objright4 #bota2 a:hover {
+                background-color: #D60B3E;
+                color: #ffffff; 
+                transition: 0.5s;
+            }
+
+    #objright4 #botabok{
+        position: absolute;
+        bottom: 15px;
+    }
+
+        #objright4 #botabok a{
+            background-color: #4D88C0;
+            color: #FFFFFF;
+            display: block;
+            width: 170px;
+            text-align: center;
+            padding: 12px 15px;
+            border: 1px solid #4D88C0;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        } 
+
+            #objright4 #botabok a:hover {
+                background-color: #135799;
+                border: 1px solid #135799;
+                color: #FFFFFF;
+                transition: 0.5s;
+            }
+
+    #objright4 #botaatt{
+        position: absolute;
+        bottom: 15px;
+    }
+
+        #objright4 #botaatt a{
+            color: #FFFFFF;
+            background-color: #50B03B;
+            border: 1px solid #50B03B;
+            display: block;
+            width: 170px;
+            text-align: center;
+            padding: 12px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        } 
+
+            #objright4 #botaatt a:hover {
+                background-color: #1D780A;
+                border: 1px solid #1D780A;
+                color: #FFFFFF;
+                transition: 0.5s;
+            }
+
+    #objright4 #botamiss{
+        position: absolute;
+        bottom: 15px;
+    }
+
+        #objright4 #botamiss a{
+            background-color: #D60B3E;
+            color: #FFFFFF;
+            border: 1px solid #D60B3E;
+            display: block;
+            width: 170px;
+            text-align: center;
+            padding: 12px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        } 
+
+            #objright4 #botamiss a:hover {
+                background-color: rgb(151, 0, 38);
+                border: 1px solid rgb(151, 0, 38);
+                color: #FFFFFF;
+                transition: 0.5s;
+            }
+
+#objright5{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+    #objright5 #img{
+        background-color: #ffffff;
+        padding: 7px;
+        width: 21px;
+        margin: 10px 0 10px 15px;
+    }
+
+    #objright5 input[type=text]{
+        margin-left: 15px;
+        width: 700px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        padding: 12px;
+    }
+        
+#infofooter600{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}   
+
+#footer {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    color: white;
+    background-color: #4D88C0;
+    text-align: center;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,221 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+#font1{
+    font-size: 12px;
+}
+
+#topr{
+    top: 0;
+    position: relative;
+    z-index: 1;
+    background-color: #A0C6EA;
+    height: 61px;
+}
+
+#top{
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 15;
+    display: flex;
+    background-color: #71A4D6;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    height: 61px;
+}
+
+    #navbar_kiri{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 10;
+        width: 50%;
+        flex-grow: 7;
+    }
+
+        #navbar_kiri a{
+            display: block;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: #135799;
+            background-color:#A0C6EA;
+            font-size: 1.25rem;
+            line-height: inherit;
+        }
+
+    #navbar_kanan {
+        margin-right: 18px;
+        display: inline-flex;
+        justify-content: flex-end;
+        background-color: #71A4D6;
+        position: relative;
+        z-index: 11;
+        flex-grow: 1;
+    }
+
+        #navbar_kanan #a{
+            display: block;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            color: #135799;
+        }
+
+        #navbar_kanan #a:hover{
+            color: white;
+            background-color: #5890CF;
+            transition: 0.5s;
+        }
+
+#body {
+    float: center;
+}
+
+    #body #bodyartikel {
+        width: 50%;
+        margin: 25px auto;
+        top: 0;
+        align-content: center;
+    }
+
+    #register {
+    }
+
+        #register * {
+            box-sizing: border-box;
+        } 
+
+        #register p {
+            padding: 12px;
+        }
+
+        #register #space{
+            width: 100%;
+            height: 20px;
+        }
+
+        #register input[type=email]{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        #register input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        #register input[type=password] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        #register label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+
+        #register #left{
+            float: left;
+            width: 90px;
+        }
+
+        #register input[type=submit] {
+            background-color: #A0C6EA;
+            width: 100%;
+            color: #135799;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-top: 20px;
+        }
+          
+        #register input[type=submit]:hover {
+            background-color: rgb(88, 144, 207);
+            color: #ffffff;
+            transition: 0.5s;
+        }
+          
+        #register #col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 0;
+        }
+
+        #register #confail {
+            position: relative;
+        }
+
+            #register #alerts {
+                position: absolute;
+                color: #D60B3E;
+            }
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#footer {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    color: white;
+    background-color: #4D88C0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+    #body #bodyartikel{
+        width: 90%;
+        padding: 5px 15px 15px 15px;
+    }
+    
+    #register #left {
+        width: 100%;
+    }
+
+    #register input[type=submit] {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #infofooter600{
+        position: relative;
+        width: 100vw;
+        height: 50px;
+        bottom: 0;
+        background-color: #4D88C0;
+    }  
+}    

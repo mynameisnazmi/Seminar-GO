@@ -1,0 +1,402 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+#font1{
+    font-size: 12px;
+}
+
+#top{
+    top: 0;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #E8E8E8;
+    display: flex;
+
+}
+    #navbar_kiri{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 10;
+        width: 50%;
+        flex-grow: 8;
+    }
+
+        #navbar_kiri a{
+            margin: 20px;
+            text-decoration: none;
+            color: #ff8000;
+        }
+
+    #navbar_kanan {
+        display: inline-flex;
+        justify-content: flex-end;
+        background-color: white;
+        position: relative;
+        z-index: 11;
+        flex-grow: 1;
+    }
+
+        #navbar_kanan a{
+            margin: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        #navbar_kanan #dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+            #navbar_kanan #dropdown img{
+                border-radius: 50%;
+                margin: 10px; 
+                max-width: 40px;
+            }
+
+        #navbar_kanan #dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0px;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 25;
+        }
+
+        #dropdown:hover #dropdown-content {
+            display: block;
+        }
+
+#header {
+    position: relative;
+}
+
+    #header img {
+        pointer-events: none;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        opacity: 1;
+    }
+
+#smart {
+    margin: 10px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: orangered;
+    z-index: 12;
+    position: relative;
+}
+
+    #smart #item{
+        margin: 20px;
+    }   
+
+        #smart input[type=text] {
+            width: 100%;
+            padding: 5px 5px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid white;
+            background-color: orangered;
+        }
+      
+        #smart select {
+            width: 220px;
+            border: none;
+            padding: 5px 5px;
+            margin: 2px 0;
+            border-bottom: 2px solid white;
+            background-color: orangered;
+            -webkit-appearance: none;
+        }
+
+            #smart option {
+                font-weight:normal;
+                background-color: white;
+                padding: 6px;
+            }
+
+#body {
+    float: center;
+}
+
+#padding{
+    padding: 15px;
+}
+
+#flexbod{
+    display: flex;
+}
+
+    #body #bodyartikel {
+        width: 50%;
+        margin: 25px auto;
+        top: 0;
+        align-content: center;
+    }
+
+    #body #bodyartikel2 {
+        width: 1000px;
+        margin: 25px auto;
+        top: 0;
+        align-content: center;
+    }
+
+        #body #bodyartikel2 #leftposttop{
+            flex-grow: 1;
+            background-color: #E8E8E8;
+        }
+
+        #body #bodyartikel2 #rightposttop{
+            flex-grow: 13;
+            background-color: #E8E8E8;
+        }
+
+        #body #bodyartikel2 #leftpost{
+            flex-basis: 140px;
+            flex-grow: 5;
+            padding: 10px 0;
+            border-bottom: 1px solid #B8B8B8;
+            border-left: 1px solid #B8B8B8;
+        }
+
+        #body #bodyartikel2 #rightpost{
+            flex-basis: 100px;
+            flex-grow: 13;
+            padding: 10px 0;
+            border-bottom: 1px solid#B8B8B8;
+            border-right: 1px solid #B8B8B8;
+        }
+
+#obj-post{
+    padding: 30px 0 0 50px;
+    padding-right: 50px;
+}
+
+#obj-judul{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+        #body #bodyartikel2 img{
+            max-width: 340px;
+            margin-bottom: -3px;
+        }
+
+        #body #bodyartikel2 a{
+            background-color: #ff8000;
+            width: 100%;
+            color: white;
+            padding: 12px 132px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+
+        #body #bodyartikel2 a:hover {
+            background-color: #ff4000;
+        }
+
+    #register {
+    }
+
+        #register * {
+            box-sizing: border-box;
+        } 
+
+        #register p {
+            padding: 12px;
+        }
+
+        #register #space{
+            width: 100%;
+            height: 20px;
+        }
+
+        #register input[type=email]{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        #register input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        #register input[type=password] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        #register label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }    
+        
+        #register #right {
+            float: right;
+            width: 90px;
+        }
+
+        #register #left{
+            float: left;
+            width: 90px;
+        }
+
+        #register input[type=submit] {
+            background-color: #ff8000;
+            width: 100%;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-top: 20px;
+        }
+          
+        #register input[type=submit]:hover {
+            background-color: #ff4000;
+        }
+          
+        #register #col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 0;
+        }
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#postinduk{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+    #postinduk #post {
+        width: 100%;
+        flex-basis: 480px;
+        margin: 0 0 25px 25px;
+        margin-top: 0;
+	    background: #fff;
+        border:1px solid #dedede;
+        position: relative;
+    }
+
+        #postinduk #post img {
+	        min-width: 100px;
+            margin:0;
+            margin-bottom: -5px;
+            max-width: 290px;
+        }
+
+        #postinduk #post img2 {
+            margin:0;
+            margin-bottom: -5px;
+            max-width: 100%;
+        }
+
+        #postinduk #post #descbox {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 40%;
+        }
+
+            #postinduk #post #descbox #namaseminar {
+                text-align: left;
+                font-size: 20px;
+                margin: 70px 0 0 0;
+                left: 0;
+                font-weight: bold;
+            } 
+
+            #postinduk #post #descbox #dateseminar {
+                text-align: left;
+            } 
+
+            #postinduk #post #descbox #locseminar {
+                text-align: left;
+            } 
+
+#infofooter{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #ff8000;
+    text-align: center;
+    padding: 5px;
+}   
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+    #body #bodyartikel{
+        width: 90%;
+        padding: 5px 15px 15px 15px;
+    }
+    
+    #register #left, #register #right{
+        width: 100%;
+    }
+
+    #register input[type=submit] {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}    

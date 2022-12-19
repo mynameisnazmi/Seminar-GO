@@ -1,0 +1,289 @@
+/* 320PX Iphone --------------------------------------------------------------------*/
+/* 320PX --------------------------------------------------------------------*/
+/* 320PX --------------------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 393px) {
+
+  #navbar_kanan {
+    right: 0;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 140px;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+    padding: 15px 25px;
+  }
+
+  .dropdown-content a, #dropdown-content2 a{
+    padding: 10px 30px;
+  }
+
+  #body #bodyartikel2 {
+    width: 95vw;
+  }
+
+  #body #bodyartikel2 #topmenu {
+    display: flex;
+  } 
+
+  #body #bodyartikel2 #leftbody {
+    display: none;
+  }
+
+  .objleft2 a{
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  #body #bodyartikel2 #mainright{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #objright2{
+    padding: 5px 10px 10px; 
+  }
+
+  #objright2 #col-25{
+    width: 100%;
+    margin-top: 0;
+    padding: 10px 0 5px; 
+  }
+
+  #objright2 #col-30{
+    width: 50%;
+  }
+
+  #col-30 #container {
+    font-size: 14px;
+  }
+
+  #objright2 #col-75{
+    width: 100%;
+    padding: 0; 
+  }
+
+  #objright2 input[type=submit] {
+    width: 100%;
+  }
+
+}
+
+/* 394PX Very Small --------------------------------------------------------------------*/
+/* 394PX --------------------------------------------------------------------*/
+/* 394PX --------------------------------------------------------------------*/
+
+@media (min-width: 394px) and (max-width: 575px){
+
+  #navbar_kanan {
+    right: 0;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 200px;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+  }
+
+  #body #bodyartikel2 {
+    width: 90vw;
+  }
+
+  #body #bodyartikel2 #topmenu {
+    display: flex;
+  } 
+
+  #body #bodyartikel2 #leftbody {
+    display: none;
+  }
+
+  .objleft2 a{
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  #body #bodyartikel2 #mainright{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #objright2{
+    padding: 10px 15px; 
+  }
+
+  #objright2 #col-25{
+    width: 40%;
+  }
+
+  #objright2 #col-30{
+    width: 100%;
+  }
+
+  #objright2 #col-75{
+    width: 60%;
+  }
+
+  #objright2 input[type=submit] {
+    width: 100%;
+  }
+
+}
+
+/* 576PX Small --------------------------------------------------------------------*/
+/* 576PX --------------------------------------------------------------------*/
+/* 576PX --------------------------------------------------------------------*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  #navbar_kanan {
+    right: 0;
+  }
+  
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 200px;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+  }
+
+  #body #bodyartikel2 {
+    width: 550px;
+  }
+
+  #body #bodyartikel2 #topmenu {
+    display: flex;
+  } 
+
+  #body #bodyartikel2 #leftbody {
+    display: none;
+  }
+
+  #body #bodyartikel2 #mainright{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #objright2{
+    padding: 10px 20px 10px 20px; 
+  }
+
+  #objright2 #col-25{
+    width: 30%;
+  }
+
+  #objright2 #col-30{
+    width: 50%;
+  }
+
+  #objright2 #col-75{
+    width: 70%;
+  }
+
+  #objright2 input[type=submit] {
+    width: 60%;
+  }
+
+}
+
+/* 768PX Medium --------------------------------------------------------------------*/
+/* 768PX --------------------------------------------------------------------*/
+/* 768PX --------------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #body #bodyartikel2 {
+    width: 750px;
+  }
+
+  #body #bodyartikel2 #topmenu {
+    display: flex;
+  } 
+
+  #body #bodyartikel2 #leftbody {
+    display: none;
+  }
+
+  #body #bodyartikel2 #mainright{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #objright2 #col-30{
+    width: 50%;
+  }
+
+}
+
+/* 992PX Large --------------------------------------------------------------------*/
+/* 992PX --------------------------------------------------------------------*/
+/* 992PX --------------------------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #body #bodyartikel2 {
+    width: 900px;
+  }
+
+  #body #bodyartikel2 #leftbody {
+    width: 200px;
+  }
+
+  .objleft a{
+    padding: 15px 0 15px 15px;
+    font-size: 16px;
+  }
+
+  #body #bodyartikel2 #mainright{
+    margin-left: 240px;
+  }
+
+  #objright2 #col-30{
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+}

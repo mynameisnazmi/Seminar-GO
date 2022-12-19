@@ -1,0 +1,472 @@
+/* 320PX Iphone --------------------------------------------------------------------*/
+/* 320PX --------------------------------------------------------------------*/
+/* 320PX --------------------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 393px) {
+
+  #navbar_kanan {
+    right: 0;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 140px;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+    padding: 15px 25px;
+  }
+
+  .dropdown-content a, #dropdown-content2 a{
+    padding: 10px 30px;
+  }
+
+  #body #bodyartikel2 {
+    width: 95vw;
+  }
+
+  #body #bodyartikel2 #leftbody {
+    display: none;
+  }
+
+  #body #bodyartikel2 #mainright{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #objright2{
+    padding: 10px 15px 10px 15px; 
+  }
+
+  #objright2 #col-25{
+    width: 100%;
+    padding: 10px 0 5px;
+  }
+
+  #objright2 #col-25v2{
+    width: 35%;
+    padding: 10px 0; 
+  }
+
+  #objright2 #col-75{
+    width: 100%;
+    padding: 0;
+  }
+
+  #objright2 #col-75v2{
+    width: 65%;
+  }
+
+  #objright2 input[type=submit] {
+    width: 100%;
+  }
+
+  #objright3 img{
+    width: 28vw;
+    height: 170px;  
+  }
+
+  #objright4{
+    padding: 10px 10px 20px 10px;
+  }
+
+  #objright4 #desc #namaseminar{
+    font-size: 16px;
+}
+
+  #objright4 #desc #locseminar {
+    display: none;
+  } 
+
+  #objright4 #desc #locseminar2 {
+      display: block;
+  } 
+
+  #objright4 #bota{
+    bottom: 10px;
+  }
+
+    #objright4 #bota a{
+      width: 110px;
+      padding: 7px 3px;
+      font-size: 14px;
+    } 
+
+  #objright4 #botabok{
+    bottom: 10px;
+  }
+
+    #objright4 #botabok a{
+      width: 110px;
+      padding: 7px 3px;
+      font-size: 14px;
+    } 
+    
+  #objright4 #botaatt{
+    bottom: 10px;
+  }
+
+    #objright4 #botaatt a{
+      width: 110px;
+      padding: 7px 3px;
+      font-size: 14px;
+    } 
+
+  #objright4 #botamiss{
+    bottom: 10px;
+  }
+
+    #objright4 #botamiss a{
+      width: 130px;
+      padding: 7px 3px;
+      font-size: 14px;
+    } 
+
+  #objright4 #bota2{
+    bottom: 10px;
+    left: 130px;
+  }
+  
+    #objright4 #bota2 a{
+      width: 50px;
+      padding: 7px 3px;
+      font-size: 14px;
+    }
+
+
+}
+
+/* 394PX Very Small --------------------------------------------------------------------*/
+/* 394PX --------------------------------------------------------------------*/
+/* 394PX --------------------------------------------------------------------*/
+
+@media (min-width: 394px) and (max-width: 575px){
+
+  #navbar_kanan {
+    right: 0;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 200px;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+  }
+
+  #body #bodyartikel2 {
+    width: 95vw;
+  }
+
+  #body #bodyartikel2 #leftbody {
+    display: none;
+  }
+
+  #body #bodyartikel2 #mainright{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #objright2{
+    padding: 10px 25px 10px 25px; 
+  }
+
+  #objright2 #col-25, #objright2 #col-25v2{
+    width: 35%;
+  }
+
+  #objright2 #col-75, #objright2 #col-75v2{
+    width: 65%;
+  }
+
+  #objright2 input[type=submit] {
+    width: 100%;
+  }
+
+  #objright3 img{
+    width: 30vw;
+    height: 170px;  
+  }
+
+  #objright4{
+    padding: 15px 15px 20px 15px;
+  }
+
+  #objright4 #desc #namaseminar{
+    font-size: 16px;
+}
+
+  #objright4 #desc #locseminar {
+    display: none;
+  } 
+
+  #objright4 #desc #locseminar2 {
+      display: block;
+  } 
+
+  #objright4 #bota a{
+    width: 130px;
+    padding: 7px 3px;
+    font-size: 14px;
+  } 
+
+  #objright4 #botabok a{
+    width: 130px;
+    padding: 7px 3px;
+    font-size: 14px;
+  } 
+
+  #objright4 #botaatt a{
+    width: 130px;
+    padding: 7px 3px;
+    font-size: 14px;
+  } 
+
+  #objright4 #botamiss a{
+    width: 130px;
+    padding: 7px 3px;
+    font-size: 14px;
+  } 
+
+  #objright4 #bota2{
+    left: 160px;
+  }
+  
+    #objright4 #bota2 a{
+      width: 50px;
+      padding: 7px 5px;
+      font-size: 14px;
+    } 
+}
+
+/* 576PX Small --------------------------------------------------------------------*/
+/* 576PX --------------------------------------------------------------------*/
+/* 576PX --------------------------------------------------------------------*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  #navbar_kanan {
+    right: 0;
+  }
+  
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 200px;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+  }
+
+  #body #bodyartikel2 {
+    width: 90vw;
+  }
+
+  #body #bodyartikel2 #leftbody {
+    display: none;
+  }
+
+  #body #bodyartikel2 #mainright{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #objright2{
+    padding: 10px 25px 10px 25px; 
+  }
+
+  #objright2 #col-25, #objright2 #col-25v2{
+    width: 30%;
+  }
+
+  #objright2 #col-75, #objright2 #col-75v2{
+    width: 70%;
+  }
+
+  #objright2 input[type=submit] {
+    width: 100%;
+  }
+
+  #objright3 img{
+    width: 35vw;
+    height: 250px;  
+  }
+
+  #objright4{
+    padding: 15px 20px 20px 20px;
+  }
+
+  #objright4 #bota a{
+    width: 170px;
+    padding: 7px 5px;
+  } 
+
+  #objright4 #botabok a{
+    width: 170px;
+    padding: 7px 5px;
+  } 
+
+  #objright4 #botaatt a{
+    width: 170px;
+    padding: 7px 5px;
+  } 
+
+  #objright4 #botamiss a{
+    width: 170px;
+    padding: 7px 5px;
+  } 
+
+  #objright4 #bota2{
+    left: 210px;
+  }
+  
+    #objright4 #bota2 a{
+      width: 50px;
+      padding: 7px 5px;
+    } 
+
+}
+
+/* 768PX Medium --------------------------------------------------------------------*/
+/* 768PX --------------------------------------------------------------------*/
+/* 768PX --------------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #body #bodyartikel2 {
+    width: 700px;
+  }
+
+  #body #bodyartikel2 #leftbody {
+    width: 180px;
+  }
+
+  .objleft a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+
+  #body #bodyartikel2 #mainright{
+    width: 500px;
+    margin-left: 200px;
+  }
+
+  #objright2{
+    padding: 10px 25px 10px 25px; 
+  }
+
+  #objright2 #col-25, #objright2 #col-25v2{
+    width: 30%;
+  }
+
+  #objright2 #col-75, #objright2 #col-75v2{
+    width: 70%;
+  }
+
+  #objright3 img{
+    width: 200px;
+    height: 200px;  
+  }
+
+  #objright4{
+    padding: 15px 20px 20px 20px;
+  }
+
+  #objright4 #desc #locseminar {
+    display: none;
+  } 
+
+  #objright4 #desc #locseminar2 {
+      display: block;
+  } 
+
+  #objright4 #bota a{
+    width: 150px;
+    padding: 7px 5px;
+  } 
+
+  #objright4 #botabok a{
+    width: 150px;
+    padding: 7px 5px;
+  } 
+
+  #objright4 #botaatt a{
+    width: 150px;
+    padding: 7px 5px;
+  } 
+
+  #objright4 #botamiss a{
+    width: 150px;
+    padding: 7px 5px;
+  } 
+
+  #objright4 #bota2{
+    left: 190px;
+  }
+  
+    #objright4 #bota2 a{
+      width: 50px;
+      padding: 7px 5px;
+    } 
+
+}
+
+/* 992PX Large --------------------------------------------------------------------*/
+/* 992PX --------------------------------------------------------------------*/
+/* 992PX --------------------------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #body #bodyartikel2 {
+    width: 950px;
+  }
+
+  #body #bodyartikel2 #leftbody {
+    width: 230px;
+  }
+
+  #body #bodyartikel2 #mainright{
+    width: 700px;
+    margin-left: 250px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+}

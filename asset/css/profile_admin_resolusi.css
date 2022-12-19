@@ -1,0 +1,117 @@
+/* 320PX Iphone --------------------------------------------------------------------*/
+/* 320PX --------------------------------------------------------------------*/
+/* 320PX --------------------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 393px) {
+
+   #navbar_kanan {
+      right: 0;
+   }
+
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 140px;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+    padding: 15px 25px;
+  }
+
+  .dropdown-content a, #dropdown-content2 a{
+    padding: 10px 30px;
+  }
+
+}
+
+/* 394PX Very Small --------------------------------------------------------------------*/
+/* 394PX --------------------------------------------------------------------*/
+/* 394PX --------------------------------------------------------------------*/
+
+@media (min-width: 394px) and (max-width: 575px){
+
+  #navbar_kanan {
+    right: 0;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 200px;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+  }
+
+}
+
+/* 576PX Small --------------------------------------------------------------------*/
+/* 576PX --------------------------------------------------------------------*/
+/* 576PX --------------------------------------------------------------------*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  #navbar_kanan {
+    right: 0;
+  }
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 200px;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+  }
+
+}
+
+/* 768PX Medium --------------------------------------------------------------------*/
+/* 768PX --------------------------------------------------------------------*/
+/* 768PX --------------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* 992PX Large --------------------------------------------------------------------*/
+/* 992PX --------------------------------------------------------------------*/
+/* 992PX --------------------------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+}

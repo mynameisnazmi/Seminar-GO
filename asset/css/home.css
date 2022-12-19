@@ -1,0 +1,667 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    background-color: #ffffff;
+}
+:root{
+    --colpos: rgba(0, 0, 0, 0.8);
+    --colfont: #ffffff;
+    --arrcolor: #135799;
+}
+
+#topr{
+    top: 0;
+    position: relative;
+    z-index: 1;
+    background-color: #A0C6EA;
+    height: 61px;
+}
+
+#top{
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 15;
+    display: flex;
+    background-color: #71A4D6;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+    #navbar_kiri{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 10;
+        width: 50%;
+        flex-grow: 7;
+    }
+
+        #navbar_kiri a{
+            display: block;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: #135799;
+            background-color:#A0C6EA;
+            font-size: 1.25rem;
+            line-height: inherit;
+        }
+
+        #navbar_kiri .result_semcio{
+            display: block;
+            background-color: #ffffff;
+            padding: 13px;
+            width: 15px !important;
+            object-fit: cover;
+            margin: 10px 0 10px 15px;
+            border-radius: 1px 0 0 1px ;
+        }
+
+        #navbar_kiri .result_sem {
+            display: block;
+            width: 24vw;
+            padding: 5px 5px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: none;
+            font-size: 17px;
+            background-color: #ffffff;
+            border-radius: 0 1px 1px 0;
+        }
+
+        #result_sem {
+            margin-top: 61px;
+            margin-left: 177px;
+            position: absolute;
+            background-color: #f9f9f9;
+            z-index: 1;
+            width: 503px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }   
+
+            #result_sem a{
+                display: block;
+                text-decoration: none;
+                color: black;
+                padding: 15px 30px 15px 20px;
+            }      
+
+            #result_sem a:hover{
+                color: #063A74;
+                background-color: #dedede;
+                transition: 0.5s;
+            }  
+
+    #navbar_kanan {
+        right: 17px;
+        display: inline-flex;
+        justify-content: flex-end;
+        background-color: #71A4D6;
+        position: relative;
+        z-index: 11;
+        flex-grow: 1;
+    }
+
+        #navbar_kanan #a{
+            display: block;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            color: #135799;
+        }
+
+        #navbar_kanan #a:hover{
+            color: white;
+            background-color: #5890CF;
+            transition: 0.5s;
+        }
+
+        /*new*/
+        .dropdown {
+            width: auto;
+            display: flex;
+            align-items: center;
+            padding: 0px 10px 0px 20px;
+            cursor: pointer;
+            color: #135799;
+        }
+
+        .dropdown:hover {
+            background-color: #5890CF;
+            color: white;
+            transition: 0.5s;
+        }
+
+        .dropdown .p{
+            position: relative;
+        }
+        
+        .imgdrop{
+            border-radius: 50%;
+            border: 2px solid #135799;
+            width: 38px;
+            height: 38px;
+            object-fit: cover;
+            padding: 3px;
+            margin-left: 5px;
+        }
+
+        #navbar_kanan #img{
+            cursor: pointer;
+            display: none;
+            height: 25px;
+            object-fit: cover;
+            margin: 18px 5px 8px 15px;
+        }
+
+        #navbar_kanan #container {
+            display: none;
+            cursor: pointer;
+            padding: 15px 15px 13px;
+        }
+
+            #bar1, #bar2, #bar3 {
+                display: none;
+                width: 30px;
+                height: 3px;
+                background-color: #ffffff;
+                margin: 6px 0;
+                transition: 0.4s;
+            }
+
+        .dropdown-content, #dropdown-content2 {
+            display: none;
+            position: absolute;
+            right: 0px;
+            top: 61px;
+            background-color: #ffffff;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 25;
+        }
+
+        .dropdown-content .p2{
+            position: relative;
+            display: none;
+            padding: 15px 35px;
+            background-color: #dedede;
+        }
+
+        .dropdown-content #a3{
+            display: none;
+        }
+
+        .dropdown-content a, #dropdown-content2 a{
+            display: block;
+            width: 130px;
+            padding: 10px 40px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .dropdown-content a:hover, #dropdown-content2 a:hover{
+            background-color: #dedede;
+            color: #063A74;
+            transition: 0.5s;
+        }
+
+#header {
+    position: relative;
+}
+        
+    #headerimg {
+        background-image: url('../pict/header2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 450px;
+        z-index: 1;
+        position: relative;
+    }
+
+    #header #container{
+        margin-top: -71px;
+        float: center;
+    }
+
+        #header #container #container2{
+            max-width: 1140px;
+            margin: auto;
+            position: relative;
+        }
+
+        #header h1{
+            padding-top: 50px;
+            font-size: 5.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+            color: #fff;
+            -webkit-text-stroke-width: 1px; 
+            -webkit-text-stroke-color: #fff; 
+            
+        }
+
+#smart {
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #A0C6EA;
+    box-shadow: 0px 8px 16px 0px rgba(254, 240, 89, 0.171);
+    z-index: 12;
+}
+    
+    #smart #item{
+        margin: 13px;
+    }   
+
+        #result_loc{
+            margin-top: 10px;
+            position: absolute;
+            background-color: #f9f9f9;
+            z-index: 25;
+            width: 500px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }   
+
+            #result_loc a{
+                display: block;
+                text-decoration: none;
+                color: black;
+                padding: 15px 30px 15px 20px;
+            }      
+
+            #result_loc a:hover{
+                color: #063A74;
+                background-color: #dedede;
+                transition: 0.5s;
+            }  
+
+        #smart a{
+            position: relative;
+            display: block;
+            width: 250px;
+            height: 40px;
+            margin-top: 2px;
+            padding: 5px 15px;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            font-size: 20px;
+            background-color: #ffffff;
+            color: #135799;
+        }
+        #smart a:hover{
+            background-color: #5890CF;
+            color: #ffffff;
+            transition: 0.5s;
+            --arrcolor:#ffffff;
+        }
+
+            #i {
+                position: absolute;
+                content: "";
+                top: 16px;
+                right: 10px;
+                width: 0;
+                height: 0;
+                border: 6px solid transparent;
+                border-color: var(--arrcolor) transparent transparent transparent;
+            }
+
+        #smart input[type=text] {
+            display: block;
+            width: 250px;
+            padding: 5px 5px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: none;
+            font-size: 20px;
+            border-bottom: 1px solid #000000;
+            background-color: #ffffff;
+            color: rgb(145, 195, 253);
+        }
+          
+        /*the container must be positioned relative:*/
+        .custom-select {
+            position: relative;
+            width: 250px;
+            font-size: 18px;
+            
+        }
+  
+        .custom-select select {
+            display: none; /*hide original SELECT element:*/
+        }
+  
+        .select-selected {
+            background-color: #ffffff;
+            
+        }
+  
+        /*style the arrow inside the select element:*/
+        .select-selected:after {
+            position: absolute;
+            content: "";
+            top: 18px;
+            right: 10px;
+            width: 0;
+            height: 0;
+            border: 6px solid transparent;
+            border-color: var(--arrcolor) transparent transparent transparent;
+        }
+        .select-selected:hover{
+            --arrcolor:#ffffff;
+            background-color: #5890CF;
+            color: #ffffff;
+            transition: 0.5s;
+        }
+  
+        /*point the arrow upwards when the select box is open (active):*/
+        .select-selected.select-arrow-active:after {
+            border-color: transparent transparent rgba(0, 0, 0, 0.5) transparent;
+            top: 10px;
+        }
+  
+        /*style the items (options), including the selected item:*/
+        .select-items div,.select-selected {
+            color: #135799;
+            padding: 8px 16px;
+            cursor: pointer;
+            user-select: none;
+        }
+  
+        /*style items (options):*/
+        .select-items {
+            position: absolute;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            border-color: rgba(0, 0, 0, 0.1);
+            top: 100%;
+            left: 0;
+            right: 0;
+            z-index: 99;
+            max-height: 400px;
+            overflow: auto;
+        }
+  
+        /*hide the items when the select box is closed:*/
+        .select-hide {
+            display: none;
+        }
+  
+        .select-items div:hover, .same-as-selected {
+            background-color: #5890CF;
+            color: #ffffff;
+            transition: 0.5s;
+        }
+        
+    #checkboxbox{
+        background-color: #ffffff;
+        position: relative;
+        float: center;
+        width: 65vw;
+        padding: 10px 20px 20px;
+        border: 1px solid #D8D8D8;
+        border-radius: 5px;
+        z-index: 0;
+        margin: 25px auto;
+        margin-top: -15px;
+        box-shadow: 0px 8px 16px 0px rgba(160, 198, 234, 0.377);
+        
+    }
+
+        #checkboxloc{
+            background-color: #ffffff;
+            display: none;
+        }
+
+        #checkboxcat{
+            background-color: #ffffff;
+            display: none;
+        }
+
+        #checkboxcon{
+            border-bottom: 1px solid #D8D8D8;
+            padding-bottom: 15px;
+        }
+
+            #checkjudul{
+                font-size: 18px;
+                font-weight: bold;
+                text-align: left;
+                color: #484848;
+                padding: 20px 0 15px;
+            }
+
+            #row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+                #col-25{
+                    float: left;
+                    width: 20%;
+                    margin-top: 6px;
+                }
+
+                #col-25 #container {
+                    display: flex;
+                    position: relative;
+                    padding-left: 25px;
+                    margin-bottom: 12px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                }
+                  
+                /* Hide the browser's default checkbox */
+                #col-25 #container input {
+                    position: absolute;
+                    opacity: 0;
+                    cursor: pointer;
+                    height: 0;
+                    width: 0;
+                }
+                  
+                /* Create a custom checkbox */
+                #col-25 #checkmark {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 20px;
+                    width: 20px;
+                    background-color: #eee;
+                }
+                  
+                /* On mouse-over, add a grey background color */
+                #col-25 #container:hover input ~ #checkmark {
+                    background-color: #ccc;
+                }
+                  
+                /* When the checkbox is checked, add a blue background */
+                #col-25 #container input:checked ~ #checkmark {
+                    background-color: #FFF359
+                    ;
+                }
+                  
+                /* Create the checkmark/indicator (hidden when not checked) */
+                #col-25 #checkmark:after {
+                    content: "";
+                    position: absolute;
+                    display: none;
+                }
+                  
+                /* Show the checkmark when checked */
+                #col-25 #container input:checked ~ #checkmark:after {
+                    display: block;
+                }
+                  
+                /* Style the checkmark/indicator */
+                #col-25 #container #checkmark:after {
+                    left: 6px;
+                    top: 2px;
+                    width: 5px;
+                    height: 10px;
+                    border: solid white;
+                    border-width: 0 3px 3px 0;
+                    -webkit-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+
+#body {
+    float: center;
+}
+
+#postinduk{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+    #postinduk #post {
+        width: 480px;
+        margin: 0 0 25px 25px;
+        margin-top: 0;
+	    background: #fff;
+        border:1px solid #dedede;
+        position: relative;
+        box-shadow: 0px 8px 16px 0px rgb(160, 198, 234);
+    }
+
+    #postinduk #post:hover {
+        --colpos:#FFF039;
+        --colfont: #306EAA;
+        --colimg: scale(1.2);
+    }
+    
+
+        #img{
+            overflow: hidden; 
+        }
+
+        #postinduk #post #img img {
+	        min-width: 100px;
+            margin:0;
+            margin-bottom: -4px;
+            height: 290px;
+            width: 290px;
+            object-fit: cover;
+            transition: 0.5s ease;
+            transform: var(--colimg);
+        }
+
+        #postinduk #post #descbox {
+            cursor: pointer;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            background-color:var(--colpos);
+            color: var(--colfont);
+            padding-left: 20px;
+            padding-right: 20px;
+            transition: 0.5s;
+            width: 40%;
+        }
+
+            #postinduk #post #descbox #namaseminar {
+                text-align: left;
+                font-size: 20px;
+                margin: 70px 0 0 0;
+                left: 0;
+                font-weight: bold;
+            } 
+
+            #postinduk #post #descbox #dateseminar {
+                text-align: left;
+            } 
+
+            #postinduk #post #descbox #locseminar {
+                text-align: left;
+            } 
+
+#postinduk2{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+    #postinduk2 #a1{
+        background-color: #5890CF;
+        color: #063A74;
+        padding: 12px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        margin-bottom: 25px;
+        margin-right: 10vw;
+    }
+
+        #postinduk2 #a1:hover {
+            background-color: #063A74;
+            color: #ffffff;
+            transition: 0.5s;
+        }
+
+    #postinduk2 #a2{
+        background-color: #5890CF;
+        color: #063A74;
+        padding: 12px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        margin-bottom: 25px;
+        margin-right: 15px;
+    }
+
+        #postinduk2 #a2:hover {
+            background-color: #063A74;
+            color: #ffffff;
+            transition: 0.5s;
+        }   
+
+    #postinduk2 a:hover{
+        background-color: #063A74;
+        color: #ffffff;
+    }
+
+#infofooter2{
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    background-color: #4D88C0;
+}  
+
+#footer {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    color: white;
+    background-color: #4D88C0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+     
+    

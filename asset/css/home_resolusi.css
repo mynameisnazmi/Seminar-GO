@@ -1,0 +1,462 @@
+/* 320PX Iphone --------------------------------------------------------------------*/
+/* 320PX --------------------------------------------------------------------*/
+/* 320PX --------------------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 393px) {
+
+  #navbar_kiri .result_semcio{
+    display: none;
+  }
+
+  #navbar_kiri .result_sem {
+    display: none;
+    width: 0;
+  }
+
+  #result_sem {
+    margin-left: 15px;
+    width: 85vw;
+  } 
+
+  #navbar_kanan {
+    right: 0;
+  }
+
+  #navbar_kanan #img{
+    display: block;
+  }
+
+  #navbar_kanan #a{
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+    padding: 15px 25px;
+  }
+
+  .dropdown-content #a3{
+    display: block;
+}
+
+  .dropdown-content a, #dropdown-content2 a{
+    padding: 10px 30px;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 140px;
+  }
+
+  #navbar_kanan #container {
+    display: inline-block;
+  }
+
+    #bar1, #bar2, #bar3 {
+      display: block;
+    }
+ 
+  #headerimg {
+    min-height: 460px;
+  }
+
+  #header #container #container2{
+    max-width: 92vw;
+  }
+
+  #header h1{
+    padding-top: 70px;
+    font-size: 3rem;
+  }
+
+  #smart a{
+    width: 81vw;
+    margin-bottom: -10px;
+  }
+
+  .custom-select {
+    width: 35vw;
+    margin-bottom: -10px;
+  }
+
+  #smart{
+    margin-top: -15px;
+    padding-bottom: 10px;
+  }
+
+  #checkboxbox{
+    width: 88vw;
+  }
+
+  #col-25{
+    width: 50%;
+  }
+
+  #postinduk #post {
+    width: 90vw;
+    margin: 0 0 25px 0;
+  }
+
+  #postinduk #post #img img {
+    height: 250px;
+  }
+
+  #postinduk #post #descbox #namaseminar {
+    margin: 30px 0 0 0;
+  } 
+}
+
+/* 394PX Very Small --------------------------------------------------------------------*/
+/* 394PX --------------------------------------------------------------------*/
+/* 394PX --------------------------------------------------------------------*/
+
+@media (min-width: 394px) and (max-width: 575px){
+
+  #navbar_kiri .result_semcio{
+    display: none;
+  }
+
+  #navbar_kiri .result_sem {
+    display: none;
+    width: 0;
+  }
+
+  #result_sem {
+    margin-left: 15px;
+    width: 90vw;
+  } 
+
+  #navbar_kanan {
+    right: 0;
+  }
+
+  #navbar_kanan #img{
+    display: block;
+  }
+
+  #navbar_kanan #a{
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+  }
+
+  .dropdown-content #a3{
+    display: block;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 200px;
+  }
+
+  #navbar_kanan #container {
+    display: inline-block;
+  }
+
+    #bar1, #bar2, #bar3 {
+      display: block;
+    }
+
+  #headerimg {
+    min-height: 410px;
+  }
+
+  #header #container #container2{
+    max-width: 92vw;
+  }
+
+  #header h1{
+    padding-top: 70px;
+    font-size: 3rem;
+  }
+
+  #smart a{
+    width: 81vw;
+    margin-bottom: -10px;
+  }
+
+  .custom-select {
+    width: 37vw;
+    margin-bottom: -10px;
+  }
+
+  #smart{
+    margin-top: -15px;
+    padding-bottom: 10px;
+  }
+
+  #checkboxbox{
+    width: 88vw;
+  }
+
+  #col-25{
+    width: 50%;
+  }
+
+  #postinduk #post {
+    width: 80vw;
+    margin: 0 0 25px 0;
+  }
+
+  #postinduk #post #descbox #namaseminar {
+    margin: 50px 0 0 0;
+  } 
+
+}
+
+/* 576PX Small --------------------------------------------------------------------*/
+/* 576PX --------------------------------------------------------------------*/
+/* 576PX --------------------------------------------------------------------*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  #navbar_kiri .result_semcio{
+    display: none;
+  }
+
+  #navbar_kiri .result_sem {
+    display: none;
+    width: 0;
+  }
+
+  #result_sem {
+    margin-left: 15px;
+    width: 90vw;
+  }   
+
+  #navbar_kanan {
+    right: 0;
+  }
+
+  #navbar_kanan #img{
+    display: block;
+  }
+
+  #navbar_kanan #a{
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  #navbar_kanan .p{
+    display: none;
+  }
+
+  #navbar_kanan .p2{
+    display: block;
+  }
+
+  .dropdown-content #a3{
+    display: block;
+  }
+
+  .imgdrop{
+    margin: 6px 0 3px;
+  }
+
+  .dropdown-content, #dropdown-content2 {
+    width: 200px;
+  }
+
+  #navbar_kanan #container {
+    display: inline-block;
+  }
+
+    #bar1, #bar2, #bar3 {
+      display: block;
+    }
+
+  #headerimg {
+    min-height: 510px;
+  }
+
+  #header #container #container2{
+    max-width: 85vw;
+  }
+
+  #header h1{
+    padding-top: 70px;
+    font-size: 4.2rem;
+  }
+
+  #smart a{
+    width: 81vw;
+    margin-bottom: -10px;
+  }
+
+  .custom-select {
+    width: 37.3vw;
+    margin-bottom: -10px;
+  }
+
+  #smart{
+    margin-top: -15px;
+    padding-bottom: 10px;
+  }
+
+  #checkboxbox{
+    width: 85vw;
+  }
+
+  #col-25{
+    width: 33%;
+  }
+
+  #postinduk #post {
+    width: 80vw;
+    margin: 0 0 25px 0;
+  }
+
+  #postinduk #post #img img {
+    width: 50vw;
+    height: 50vw;
+  }
+
+}
+
+/* 768PX Medium --------------------------------------------------------------------*/
+/* 768PX --------------------------------------------------------------------*/
+/* 768PX --------------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #navbar_kiri .result_semcio{
+    display: block !important;
+  }
+
+  #navbar_kiri .result_sem {
+    display: block !important;
+    width: 24vw !important;
+  }
+
+  #headerimg {
+    min-height: 550px;
+  }
+
+  #header #container #container2{
+    max-width: 650px;
+  }
+
+  #header h1{
+    font-size: 5.5rem;
+  }
+
+  #smart a{
+    width: 620px;
+    margin-bottom: -10px;
+  }
+
+  .custom-select {
+    width: 295px;
+    margin-bottom: -10px;
+  }
+
+  #smart{
+    margin-top: -15px;
+    padding-bottom: 10px;
+  }
+
+  #checkboxbox{
+    width: 85vw;
+  }
+
+  #col-25{
+    width: 25%;
+  }
+
+  #postinduk #post {
+    width: 44vw;
+  }
+
+  #postinduk #post #descbox {
+    width: 20vw;
+}
+
+}
+
+/* 992PX Large --------------------------------------------------------------------*/
+/* 992PX --------------------------------------------------------------------*/
+/* 992PX --------------------------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #navbar_kiri .result_semcio{
+    display: block !important;
+  }
+
+  #navbar_kiri .result_sem {
+    display: block !important;
+    width: 24vw !important;
+  }
+  #header #container #container2{
+    max-width: 900px;
+  }
+
+  #smart a{
+    width: 180px;
+  }
+
+  .custom-select {
+    width: 180px;
+  }
+
+  #checkboxbox{
+    width: 85vw;
+  }
+
+  #postinduk #post {
+    width: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #navbar_kiri .result_semcio{
+    display: block !important;
+  }
+
+  #navbar_kiri .result_sem {
+    display: block !important;
+    width: 24vw !important;
+  }
+}
+
+
+.showelant{
+  animation: showel 0.3s;
+}
+@keyframes showel {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+/**/
+.hideelant{
+  animation: hideel 0.3s  ;
+}
+@keyframes hideel {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
